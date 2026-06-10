@@ -1,0 +1,15 @@
+# Ambienti virtuali
+venv/
+env/
+
+# Dati (Ignora tutto ciò che c'è nella cartella data)
+data/
+*.csv
+*.json
+*.h5
+*.parquet
+
+# Cache e file di sistema
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
